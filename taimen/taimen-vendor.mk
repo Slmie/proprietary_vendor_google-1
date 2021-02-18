@@ -945,6 +945,41 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/mbn.ver:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/mbn.ver \
     vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/mbn_sw.dig:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/mbn_sw.dig \
     vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/oem_sw.txt:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/oem_sw.txt \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/commerci/volte_op/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/commerci/volte_op/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmhk/commerci/volte_op/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmhk/commerci/volte_op/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/agnss_lo/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/agnss_lo/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/conf_vol/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/conf_vol/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/eps_only/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/eps_only/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/lpp_loct/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/lpp_loct/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/nsiot_vo/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/nsiot_vo/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/rrlp_loc/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/rrlp_loc/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/tgl_comb/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/tgl_comb/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/w_irat_c/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cmcc/lab/w_irat_c/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/ct/commerci/volte_op/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/ct/commerci/volte_op/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/volte_co/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/volte_co/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/cta/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/cta/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/test/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/test/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/test_eps/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/test_eps/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/test_no_/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/ct/lab/test_no_/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cu/commerci/volte/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cu/commerci/volte/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/china/cu/lab/test/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/china/cu/lab/test/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/3hk/commerci/hk/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/3hk/commerci/hk/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/ais/commerci/volte/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/ais/commerci/volte/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/apt/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/apt/commerci/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/dtac/commerci/volte/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/dtac/commerci/volte/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/fareasto/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/fareasto/commerci/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/hkt/commerci/hk/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/hkt/commerci/hk/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/cht/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/cht/commerci/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/m1/commerci/sg/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/m1/commerci/sg/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/singtel/commerci/singapor/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/singtel/commerci/singapor/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/smartone/commerci/hk/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/smartone/commerci/hk/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/vowifi/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/vowifi/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/smartfre/commerci/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/starhub/commerci/singapor/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/starhub/commerci/singapor/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/tm/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/tm/commerci/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/tstar/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/tstar/commerci/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/truemove/commerci/volte/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/truemove/commerci/volte/mcfg_sw.mbn \
+    vendor/google/taimen/proprietary/vendor/mbn/mcfg/configs/mcfg_sw/generic/sea/ytl/commerci/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/mbn/mcfg/configs/mcfg_sw/generic/sea/ytl/commerci/mcfg_sw.mbn \
     vendor/google/taimen/proprietary/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd \
     vendor/google/taimen/proprietary/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd \
     vendor/google/taimen/proprietary/vendor/media/ensemble_fd_model.emd:$(TARGET_COPY_OUT_VENDOR)/media/ensemble_fd_model.emd \
